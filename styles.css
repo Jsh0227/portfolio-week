@@ -49,7 +49,6 @@ nav a{
     color:black;
     text-decoration: none;
     text-transform: uppercase;
-    
 
 }
 
@@ -60,14 +59,8 @@ nav a:hover {
 
 main{
     display: flex;
+    
     /* flex-wrap: wrap; */
-}
-
-aside {
-  flex: 30%;
-  background-color: #b9c6ae;
-  padding: 20px;
-  flex-wrap: wrap;
 }
 
 .sample-img {
@@ -75,24 +68,22 @@ aside {
   width: 100%;
   padding: 20px;
   height: 200px;
-  border: 1px solid black;
+  
 }
 
-.container {
+.container{
     display:flex;
     flex-direction: column;
-    background-color: rgb(225, 235, 237);
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
+    
+}
+.container-a{
+    border: 5px solid black;
     text-align: center; 
-    flex: 1 0 200px;
-  }
-
+    margin: 20px;
+}
 
 .sections{
     text-align:left;
-
 }
 .me{
   flex-basis: 60%;
@@ -100,19 +91,11 @@ aside {
 
 .bitmoji{
 flex-basis: 30%;
-width: 50%;
-
+height: 40%;
+width: 40%;
+margin: 20px;
 }
-.new-pictures{
-border: solid black 10px;
-margin-bottom: 3px;
-}
-.dog{
-  justify-content: center;
-    width: 50%;
-    
-}
-    
+     
 footer {
     padding: 20px;
     text-align: center;
