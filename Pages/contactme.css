@@ -69,17 +69,22 @@ nav a:hover {
 .container{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .container-1{
     margin: 20px;
     height: 40%;
-    width: 40%;
+    width: 60%;
+   
 }
 .container-2{
     margin: 20px;
-    border: 5px solid;    
-    width: 60%;
+    border: 5px solid;
+    min-height: 100%;
+    width: 60%;    
+   
 }
 
 #my-info{
