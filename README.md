@@ -5,3 +5,6 @@ My portfolio will showcase my skills and talents to employers looking to fill a 
 
 Usage
 This project is in the beginning stages.  It was created to showcase my skills as a web developer.
+
+
+https://jsh0227.github.io/portfolio-week/
